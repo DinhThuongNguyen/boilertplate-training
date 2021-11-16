@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <!-- include head.html -->
+    @@include('../layouts/head.html', { "title": "Demo" })
+    <!-- include styles.html -->
+    @@include('../layouts/styles.html')
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- include header.html -->
+      @@include('../layouts/header.html')
+      <main class="main">
+        <div class="container-fluid">
+          Main content
+        </div>
+      </main>
+      <!-- include footer.html -->
+      @@include('../layouts/footer.html')
+    </div>
+    <!-- include scripts.html -->
+    @@include('../layouts/scripts.html')
+  </body>
+</html>

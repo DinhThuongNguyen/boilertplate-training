@@ -1,0 +1,51 @@
+.logo {
+    width: 229px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+
+    &__avatar {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &__left,
+        &__right {
+            width: 60px;
+            height: 30px;
+            transform: rotate(135deg);
+            position: absolute;
+        }
+
+        &__right {
+            background: $dot_colot;
+            border-radius: 45px 45px 0 0;
+            right: 1px;
+            bottom: 7px;
+            left: 34px;
+        }
+
+        &__left {
+            background: $dot_color_yellow;
+            border-radius: 0 0 45px 45px;
+            top: -7px;
+            left: 15px;
+        }
+    }
+
+    &__text {
+        width: 55%;
+
+        & p {
+            font-family: Helvetica;
+            font-size: 44.8px;
+            color: #363837;
+            letter-spacing: 0.9px;
+            line-height: 44.8px;
+        }
+    }
+}

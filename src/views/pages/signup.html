@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', { "title": "Demo" })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    @@include('../layouts/header.html')
+    <main class="main">
+      <div class="wrap-auth">
+        <div class="wrap-auth-blur">
+          <div class="b-auth__content">
+            <div class="wrap-content">
+              <div class="b-auth__content__logo">
+                @@include('../layouts/logo.html')
+              </div>
+              <div class="b-auth__content__form">
+                <div class="b-auth__content__form__title">
+                  <p>Start from Scratch</p>
+                  <label>Create account to continue.</label>
+                </div>
+                <div class="b-auth__content__form__input">
+                  <div class="b-auth__content__form__input__name">
+                    <label class="label">Full name</label>
+                    <input type="text">
+                  </div>
+                  <div class="b-auth__content__form__input__email">
+                    <label class="label">Email address</label>
+                    <input type="text">
+                  </div>
+                  <div class="b-auth__content__form__input__password">
+                    <span class="label">Password</span>
+                    <input type="password">
+                  </div>
+                </div>
+                <div class="b-auth__content__form__button">
+                  <button><span>Signup</span></button>
+                  <div class="b-auth__content__form__button__more">
+                    <p>Already have an account?</p>
+                    <a href="/login.html">Login Here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+
+</html>
