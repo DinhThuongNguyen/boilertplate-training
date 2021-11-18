@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', { "title": "Demo" })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    @@include('../layouts/header.html')
+    <main class="main">
+      <div class="wrap">
+        @@include('../layouts/top-content.html')
+        <div class="wrap-main">
+          <div class="b-desktop">
+            <div class="b-desktop-one">
+              @@include('../layouts/boxAccount.html')
+              <div class="desktop-one-item">
+                <p class="item-title title-dark">Top 5 Recipe today</p>
+                <p class="item-value title-grey">Tea-Smoked Creamy Chicken</p>
+                <p class="item-value title-grey">Pickled Savory Tortilla</p>
+                <p class="item-value title-grey">Stuffed Basil & Mint Salmon</p>
+                <p class="item-value title-grey">Strawberry Jelly</p>
+                <p class="item-value title-grey">Cinnamon and Lime Toffee</p>
+              </div>
+            </div>
+            <div class="b-desktop-two">
+              <div class="desktop-two-item-top">
+                <p class="title-dark">286 of your followers are online</p>
+                <button class="text-button">Create Recipe</button>
+              </div>
+              <div class="desktop-two-item-main">
+                @@include('../layouts/dskCard.html', {
+                  "nameCard": "Profile Name","dskClose": "cl-one","clsDsk": "cls-one","timeCreate": "2h", "btnId": "btn-one","avatarCard":"https://images.unsplash.com/profile-fb-1467003450-2d723f096cb1.jpg?dpr=2&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+                  "foodName":"Tofu Salad Ginger Garlic", "foodDesc": "I thought this salad was exceptionally delicious and healthy. I recommend pressing the ...", "foodLike": "32", "foodComment": "8", "foodImage": "/images/Potato Recipes/food one.jpg"})
+                
+                @@include('../layouts/dskCard.html', {
+                  "nameCard": "Profile Name","dskClose": "cl-two","clsDsk": "cls-two","btnId": "btn-two","timeCreate": "2h","avatarCard":"https://images.unsplash.com/profile-fb-1467003450-2d723f096cb1.jpg?dpr=2&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+                  "foodName":"Tofu Salad Ginger Garlic", "foodDesc": "I thought this salad was exceptionally delicious and healthy. I recommend pressing the ...", "foodLike": "32", "foodComment": "8", "foodImage": "/images/Potato Recipes/food one.jpg"})
+                <hr class="dsk-line">
+                <div class="item-main-follow">
+                  <div class="follow-title">
+                    <p class="title-grey fl-black">People you might want to follow</p>
+                    <p class="fl-more">See all Suggestion</p>
+                  </div>
+                  <div class="follow-card">
+                    @@include('../layouts/cardAuthor.html', {"nameAuthor": "Jenifer Bruno","recipesAuthor": "800","followAuthor":"205","imageAuthor":"https://images.unsplash.com/photo-1556157382-97eda2d62296?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGF1dGhvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60","imageAuthorFood":"/images/Potato Recipes/A6DyhlsAXyM.jpg"})
+                    @@include('../layouts/cardAuthor.html', {"nameAuthor": "Jenifer Bruno","recipesAuthor": "800","followAuthor":"205","imageAuthor":"https://images.unsplash.com/photo-1556157382-97eda2d62296?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGF1dGhvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60","imageAuthorFood":"/images/Potato Recipes/A6DyhlsAXyM.jpg"})
+                    @@include('../layouts/cardAuthor.html', {"nameAuthor": "Jenifer Bruno","recipesAuthor": "800","followAuthor":"205","imageAuthor":"https://images.unsplash.com/photo-1556157382-97eda2d62296?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGF1dGhvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60","imageAuthorFood":"/images/Potato Recipes/A6DyhlsAXyM.jpg"})
+                  </div>
+                </div>
+                <hr>
+                @@include('../layouts/dskCard.html', {
+                  "nameCard": "Profile Name","dskClose": "cl-three","clsDsk": "cls-three","btnId": "btn-three","timeCreate": "2h","avatarCard":"https://images.unsplash.com/profile-fb-1467003450-2d723f096cb1.jpg?dpr=2&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+                  "foodName":"Tofu Salad Ginger Garlic", "foodDesc": "I thought this salad was exceptionally delicious and healthy. I recommend pressing the ...", "foodLike": "32", "foodComment": "8", "foodImage": "/images/Potato Recipes/food one.jpg"})
+                
+                </div>
+            </div>
+            <div class="b-desktop-three">
+              <div class="dsk-item-one">
+                <div class="dsk-title">
+                  <p class="title-dark">Live cooking by scratch</p>
+                </div>
+                <div class="dsk-live">
+                  <img src="/images/photo-1478144592103-25e218a04891.jpeg" alt="anh">
+                </div>
+              </div>
+              <div class="dsk-item-two">
+                <div class="dsk-title">
+                  <p class="title-dark">Most Active Today</p>
+                </div>
+                <div class="dsk-list-avt">
+                  <img src="https://media.istockphoto.com/photos/asian-indian-male-white-collar-worker-with-disability-on-wheelchair-picture-id1319810505" alt="mot">
+                  <img src="https://media.istockphoto.com/photos/asian-indian-male-white-collar-worker-with-disability-on-wheelchair-picture-id1319810505" alt="hai">
+                  <img src="https://media.istockphoto.com/photos/asian-indian-male-white-collar-worker-with-disability-on-wheelchair-picture-id1319810505" alt="ba">
+                  <img src="https://media.istockphoto.com/photos/asian-indian-male-white-collar-worker-with-disability-on-wheelchair-picture-id1319810505" alt="bon">
+                  <img src="https://media.istockphoto.com/photos/asian-indian-male-white-collar-worker-with-disability-on-wheelchair-picture-id1319810505" alt="nam">
+                </div>
+              </div>
+              <div class="dsk-item-three">
+                <div class="text-sm">
+                  <span class="title-grey">About scratch</span>
+                  <span class="title-grey">Help Center</span>
+                  <span class="title-grey">Privacy Policy</span>
+                </div>
+                <div class="text-xs">
+                  <p class="title-grey">© scratch by Invision 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+
+</html>

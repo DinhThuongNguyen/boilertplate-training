@@ -26,18 +26,24 @@
 @import 'layout/hero';
 @import 'layout/heading';
 @import 'layout/logo';
+@import 'layout/topContent';
+@import 'layout/boxAccount';
+@import 'layout/dskCard';
+@import 'layout/cardAuthor';
 
 // ----------------------------------------------------------------------
 // Custom
 // ----------------------------------------------------------------------
 @import 'custom/custom-plugin';
 @import 'custom/custom-wrap';
+@import 'custom/custom-text';
 
 // ----------------------------------------------------------------------
 // Pages
 // ----------------------------------------------------------------------
 @import 'pages/homepage';
 @import 'pages/auth';
+@import 'pages/desktop';
 // ----------------------------------------------------------------------
 // Responsive
 // ----------------------------------------------------------------------
