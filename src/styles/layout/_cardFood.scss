@@ -1,0 +1,50 @@
+.card-food {
+  border-radius: 8px;
+}
+.food-img {
+  width: 100%;
+  height: 220px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+.food-details {
+  width: 100%;
+  padding: 0 1.5rem;
+}
+.foodName {
+  padding: 1rem 0;
+
+  & p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+.food-at {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.at-tm {
+  width: 60%;
+
+  & span {
+    font-size: 14px;
+  }
+}
+.at-btn {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+
+  & button {
+    color: $text_green;
+    border-radius: 8px;
+    border: 2px solid $text_green;
+  }
+}
