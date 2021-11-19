@@ -1,0 +1,145 @@
+.d-flex-100 {
+  width: 100%;
+  display: flex;
+}
+
+.fl-row {
+  flex-direction: row;
+}
+
+.fl-wrap {
+  flex-wrap: wrap;
+}
+
+.fl-nowrap {
+  flex-wrap: nowrap;
+}
+
+.fl-column {
+  flex-direction: column;
+}
+
+.jtf-between {
+  justify-content: space-between;
+}
+
+.jtf-around {
+  justify-content: space-around;
+}
+
+.jtf-evenly {
+  justify-content: space-evenly;
+}
+
+.jtf-start {
+  justify-content: flex-start;
+}
+
+.jtf-end {
+  justify-content: flex-end;
+}
+
+.jtf-center {
+  justify-content: center;
+}
+
+.ali-center {
+  align-items: center;
+}
+
+.ali-start {
+  align-items: flex-start;
+}
+
+.ali-end {
+  align-items: flex-end;
+}
+
+.fnt-hel {
+  font-family: Helvetica;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-44 {
+  font-size: 44px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.bg-white {
+  background: $background_white;
+}
+
+.bg-body {
+  background: $background_body;
+}
+
+.txt-cl-green {
+  color: $text_green;
+}
+
+.txt-cl-white {
+  color: $text_white;
+}
+
+.txt-cl-danger {
+  color: $text_danger;
+}
+
+.txt-cl-dark {
+  color: $text_dark;
+}
+
+.txt-cl-grey {
+  color: $text_grey;
+}
+
+.slick-initialized .slick-slide {
+  margin: 0 10px;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: red;
+}
+
+.slick-next {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+}
+
+.slick-next::before {
+  content: "";
+}
+
+.cs-next {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  border-top: 2px solid #363837;
+  border-right: 2px solid #363837;
+}
+
+// .slick-current {
+//   border: 2px solid $text_green;
+// }

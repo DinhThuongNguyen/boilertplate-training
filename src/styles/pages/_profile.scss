@@ -7,15 +7,13 @@
 
 .b-profile {
   width: 100%;
-  margin-top: 2rem;
-  margin-left: 3rem;
   display: flex;
-  flex-direction: row;
 }
 
 .pl-left {
-  // width: 25%;
-  // margin-left: 3rem;
+  width: 22%;
+  display: inline;
+  margin-left: 2.5rem;
 }
 .pl-action {
   display: flex;
@@ -40,8 +38,8 @@
 }
 
 .pl-right {
-  // width: 75%;
-  margin-left: 2rem;
+  width: 75%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -52,11 +50,9 @@
   margin-bottom: 2.4rem;
 }
 .pl-head {
-  // width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  // padding-right: 5rem;
   margin-bottom: 2rem;
 
   & button {
@@ -69,16 +65,10 @@
   font-size: 32px;
   font-weight: 600;
 }
-.pl-slice {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 0.7rem;
-}
 
 
 .pl-down {
-  padding: 1.5rem;
+  padding: 1.5rem 3rem 1.5rem 2rem;
   background: $background_white;
   display: grid;
   grid-template-columns: 1fr 1fr;

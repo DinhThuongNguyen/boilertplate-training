@@ -1,20 +1,24 @@
- $("#btn-one").on("click", function() {
-   $("#cls-one").toggleClass("dsk-show");
- });
- $("#cl-one").on("click", function() {
-   $("#cls-one").toggleClass("dsk-show");
- });
- 
- $("#btn-two").on("click", function() {
-   $("#cls-two").toggleClass("dsk-show");
- });
- $("#cl-two").on("click", function() {
-   $("#cls-two").toggleClass("dsk-show");
+ $(".food-btn").on("click", function() {
+   $(this)
+    .parent()
+    .parent()
+    .next().toggleClass("dsk-show")
  });
 
- $("#btn-three").on("click", function() {
-   $("#cls-three").toggleClass("dsk-show");
+ $(".dsk-close").on("click", function() {
+   $(this)
+    .parent()
+    .parent()
+    .parent().toggleClass("dsk-show")
  });
- $("#cl-three").on("click", function() {
-   $("#cls-three").toggleClass("dsk-show");
+
+ $('.cs-next').on("click", function() {
+   console.log("this");
+  //  $(this)
+  //   .prev()
+  //   .children()
+  //   .children(".slick-current")
+  //   .children()
+  //   .children()
+  //   .toggleClass("recipes-around")
  });
