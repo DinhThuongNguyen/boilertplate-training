@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', { "title": "Demo" })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    @@include('../layouts/header.html')
+    <main class="main">
+      <div class="wrap-profile-bgImg">
+        <div class="wrap-profile-bgBlur">
+          @@include('../layouts/top-content.html')
+          <div class="pl-ot d-flex flex-row wrap">
+            <div class="ot-left">
+              @@include('../layouts/otherAccount.html', {"urlImage": "https://media.istockphoto.com/photos/portrait-of-one-gangsta-rapper-outdoors-in-the-city-picture-id1291624386", "nameAccount": "Laquita Elliott", "nameCv": "Food Crafter", "numberFollow": "584", "numberLike": "23k"})
+            </div>
+            <div class="ot-right d-flex flex-column">
+              <div class="wrap d-flex flex-column pl-3 pb-3">
+                <div class="ot-title">
+                  <p class="text-dark">Laquita’s Recipes</p>
+                </div>
+                <div class="wrap d-flex flex-row ot-reci">
+                  @@include('../layouts/cardRecipes.html', {"foodName": "Soups (4)","foodUrl":"/images/Recipe Book/recipes-12.jpeg"})
+                  @@include('../layouts/cardRecipes.html', {"foodName": "Pasta (1)","foodUrl":"/images/Recipe Book/recipes-13.jpeg"})
+                  @@include('../layouts/cardRecipes.html', {"foodName": "Western (8)","foodUrl":"/images/Recipe Book/recipes-14.jpeg"})
+                </div>
+              </div>
+              <div class="ot-lst-food">
+                @@include('../layouts/cardFood.html', {"foodTime":"5","foodIngre":"4","foodName": "Cooked Coconut Mussels","foodImg":"/images/Recipe Book/recipes-16.jpeg"})
+                @@include('../layouts/cardFood.html', {"foodTime":"5","foodIngre":"4","foodName": "Grilled Black Pepper Prawns","foodImg":"/images/Recipe Book/recipes-17.jpeg"})
+                @@include('../layouts/cardFood.html', {"foodTime":"5","foodIngre":"4","foodName": "Smoked Carrots & Ginger Mammoth","foodImg":"/images/Recipe Book/recipes-18.jpeg"})
+                @@include('../layouts/cardFood.html', {"foodTime":"5","foodIngre":"4","foodName": "Shallow-Fried Peppermint Frog","foodImg":"/images/Recipe Book/recipes-19.jpeg"})
+                @@include('../layouts/cardFood.html', {"foodTime":"5","foodIngre":"4","foodName": "Shallow-Fried Peppermint Frog","foodImg":"/images/Recipe Book/recipes-20.jpeg"})
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+
+</html>
+
+
+
+<!-- @@include('../layouts/cardRecipes.html', {"foodName": "Western (8)","foodUrl":"/images/Recipe Book/photo-1541696432-82c6da8ce7bf.jpeg"})
+@@include('../layouts/cardRecipes.html', {"foodName": "Italian (2)","foodUrl":"/images/Recipe Book/photo-1544926206-bd2c1e248045.jpeg"})
+@@include('../layouts/cardRecipes.html', {"foodName": "Desserts (3)","foodUrl":"/images/Recipe Book/photo-1546077500-45f1ac492543.jpeg"})
+@@include('../layouts/cardRecipes.html', {"foodName": "Soups (4)","foodUrl":"/images/Recipe Book/photo-1455853659719-4b521eebc76d.jpeg"})
+@@include('../layouts/cardRecipes.html', {"foodName": "Pasta (1)","foodUrl":"/images/Recipe Book/photo-1512398975429-6ec18e1f3eb4.jpeg"})
+@@include('../layouts/cardRecipes.html', {"foodName": "Western (8)","foodUrl":"/images/Recipe Book/photo-1512398975429-6ec18e1f3eb4.jpeg"}) -->

@@ -11,14 +11,3 @@
     .parent()
     .parent().toggleClass("dsk-show")
  });
-
- $('.cs-next').on("click", function() {
-   console.log("this");
-  //  $(this)
-  //   .prev()
-  //   .children()
-  //   .children(".slick-current")
-  //   .children()
-  //   .children()
-  //   .toggleClass("recipes-around")
- });

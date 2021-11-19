@@ -1,0 +1,31 @@
+.pl-ot {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.ot-right {
+  width: 73%;
+  margin-left: 2rem;
+}
+.ot-left {
+  width: 21%;
+}
+.ot-title {
+  margin-bottom: 2.5rem;
+  & p {
+    font-size: 32px;
+  }
+}
+.ot-reci {
+  & .recipes {
+    margin-right: 1rem;
+  }
+}
+
+.ot-lst-food {
+  width: 95%;
+  padding: 1rem;
+  background: $background_white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
