@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <!-- include head.html -->
+  <title>Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+<!-- favicon -->
+<link href="images/favicon.icon" type="image/x-icon" rel="icon">
+<!-- meta social -->
+<meta name="twitter:card" content="" />
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="">
+<meta property="og:title" content="" />
+<meta property="og:type" content="">
+<meta property="og:url" content="" />
+<!-- Google Font -->
+
+  <!-- include styles.html -->
+  <!-- build:css(.) styles/vendor.min.css -->
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/lightgallery/dist/css/lightgallery.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/mmenu-js/dist/mmenu.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+<!-- endbuild -->
+<!-- build:css(.tmp) styles/style.min.css -->
+<link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+<!-- endbuild -->
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    <nav class="navbar navbar-expand-md bg-custom">
+  <div class="mr-auto order-0">
+    <a class="mx-auto" href="/">
+     Logo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse">
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" title="Home" href="/index.html">Home</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <main class="main">
+      <div class="wrap">
+        <div class="topContent">
+    <div class="topContent__top">
+      <div class="topContent__top__logo">
+        <div class="logo-small">
+    <div class="logo-small__avatar">
+      <div class="logo-small__avatar__left"></div>
+      <div class="logo-small__avatar__right"></div>
+    </div>
+    <div class="logo-small__text">
+      <p>scratch</p>
+    </div>
+  </div>
+      </div>
+      <div class="topContent__top__search">
+        <input type="text" placeholder="Search Recipe, Profile, or Ingredients">
+        <i><span class="glyphicon glyphicon-search topContent__top__search__icon" aria-hidden="true"></span></i>
+      </div>
+      <div class="topContent__top__info">
+        <div class="topContent__top__info__list">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
+            viewbox="0 0 16 16">
+            <path
+              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+          </svg>
+          </span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-envelope" viewbox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+          </svg>
+          </span>
+          <span>
+            <img
+            src="https://images.unsplash.com/profile-1541083044435-f9a443fdfe49?dpr=2&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+            alt="avatar">
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="m-5">
+          <div class="wrap-recipe">
+            <div>
+              <div class="lst-img bg-white p-4 border-radius-8">
+                <div class="d-flex flex-column">
+                  <div class="img-big mb-2">
+                    <img src="/images/Recipe Book/recipes-1.jpg" alt="img big">
+                  </div>
+                  <div class="img-small">
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-2.jpg" alt="small one">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-3.jpg" alt="small three">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-4.jpg" alt="small three">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-5.jpg" alt="small five">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-6.jpg" alt="small six">
+                    </div>
+                    <button class="img-item btn-img">
+                      <img src="/images/Recipe Book/recipes-7.jpg" alt="small seven">
+                      <span class="img-modal d-flex align-items-center justify-content-center"></span>
+                    </button>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-8.jpg" alt="small eight">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-9.jpg" alt="small nine">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-10.jpg" alt="small ten">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-11.jpg" alt="small eleven">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-12.jpeg" alt="small twelve">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-13.jpeg" alt="small thirteen">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="prv-recipe d-flex flex-column">
+              <div class="wrap pt-4 pl-4 pr-4 d-flex flex-column bg-white">
+                <div class="recipe-tlt pb-3">
+                  <div class="reci-title">
+                    <p class="text_dark fs-24 fw-600">Sautéed Orange & Mustard Bruschetta</p>
+                  </div>
+                  <div class="d-flex flex-row align-items-center justify-content-end">
+                    <a class="txt-cl-green d-flex " href="/">
+                      <i class="bi bi-pencil"></i>
+                      <span class="pl-1 fs-16">Edit Recipe</span>
+                    </a>
+                    <button class="reci-btn ml-4 bg-green txt-cl-white">Start Cooking</button>
+                  </div>
+                </div>
+                <div class="wrap">
+                  <p class="text_dark fs-16 p-4 fw-600">Ingredients</p>
+                  <div class="ingre">
+                    <div class="d-flex flex-column pl-4 pb-3">
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">cooking spray</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">1/2 cup whole milk</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">2 large eggs1 tablespoon maple syrup</p>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column pb-3">
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">1/2 teaspoon vanilla extract</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">1 pinch salt</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">4 pieces 1/2-inch thick pieces brioche</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap p-4 mt-3 mb-3 bg-white border-radius-8">
+                <div class="d-flex flex-column">
+                  <p class="txt-cl-dark fs-16 fw-600 mb-3">How to cook</p>
+                  <div class="cook mb-3">
+                    <div class="d-flex flex-column">
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>1</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Heat a Belgian waffle iron.
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>2</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Mix the flour, sugar and baking powder together in a mixing bowl. Stir in 1 cup eggnog, butter and the egg until well blended. Add more eggnog if needed to make a pourable batter.  
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>3</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Lightly grease or srpay the waffle iron with non-stick cooking
+                          spray. Pour some batter onto the preheated waffle iron, close the top,
+                          and cook until golden brown and crisp on both sides.
+                          Waffles are usually cooked with steam subsides. Transfer waffles to a serving plate and keep warm. 
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>4</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Meanwhile place rasberry preserves in a pan and heat over medium heat until pourable. 
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>5</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          To serve, drizzle rasberry over each waffle and top with rasberries. If desired add a dollop
+                          of whipped cream to each waffle.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-start prev-video">
+                      <img src="/images/image-video.png" alt="buoc">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column p-4 bg-white border-radius-8">
+                <p class="txt-cl-dark fs-16 fw-600 pt-1 pb-2">Additional Information</p>
+                <div class="pt-2 prev-info">
+                  <div class="d-flex flex-column">
+                    <div class="prev-info-item mb-4 mt-2">
+                      <p class="txt-cl-blur fs-14">Serving Time (±)</p>
+                      <p class="txt-cl-dark fs-14">Mins</p>
+                    </div>
+                    <div class="prev-info-item">
+                      <p class="txt-cl-blur fs-14">Nutrition Facts</p>
+                      <div class="d-flex flex-column">
+                        <p class="txt-cl-dark fs-14">222 calories</p>
+                        <p class="txt-cl-dark fs-14">6.2g fat</p>
+                        <p class="txt-cl-dark fs-14">7.2g carbohydrates</p>
+                        <p class="txt-cl-dark fs-14">2.6g protein</p>
+                        <p class="txt-cl-dark fs-14">68mg cholesterol</p>
+                        <p class="txt-cl-dark fs-14">28mg sodium</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <p class="txt-cl-blur fs-14 mr-4">Tags</p>
+                    <p class="txt-cl-dark fs-14">Sweet, Coconut, Quick, Easy, Homemade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- include footer.html -->
+    <footer class="footer-container">
+  <div class="container-fluid">
+    footer
+  </div>
+  <div class="clearfix"></div>
+</footer>
+  </div>
+  <!-- include scripts.html -->
+  <!-- build:js(.) scripts/vendor.min.js -->
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="node_modules/scrollbooster/dist/scrollbooster.min.js"></script>
+<script type="text/javascript" src="node_modules/slick-carousel/slick/slick.js"></script>
+<script type="text/javascript" src="node_modules/lightgallery/dist/js/lightgallery.min.js"></script>
+<script type="text/javascript" src="node_modules/lg-thumbnail/dist/lg-thumbnail.min.js"></script>
+<script type="text/javascript" src="node_modules/lg-video/dist/lg-video.min.js"></script>
+<script type="text/javascript" src="node_modules/mmenu-js/dist/mmenu.js"></script>
+<script type="text/javascript" src="node_modules/wow.js/dist/wow.js"></script>
+<script type="text/javascript" src="node_modules/list.js/dist/list.min.js"></script>
+<script type="text/javascript" src="node_modules/list.pagination.js/dist/list.pagination.min.js"></script>
+<script type="text/javascript" src="node_modules/pagepiling.js/dist/jquery.pagepiling.js"></script>
+<script type="text/javascript" src="node_modules/pagepiling.js/dist/jquery.pagepiling.min.js"></script>
+<script  type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="node_modules/materialize-css/js/waves.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/script.min.js -->
+<script type="text/javascript" src="scripts/script.js"></script>
+<script type="text/javascript" src="scripts/sliders.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<!-- endbuild -->
+
+</body>
+
+</html>

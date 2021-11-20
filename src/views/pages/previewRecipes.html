@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <!-- include head.html -->
+  @@include('../layouts/head.html', { "title": "Demo" })
+  <!-- include styles.html -->
+  @@include('../layouts/styles.html')
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    @@include('../layouts/header.html')
+    <main class="main">
+      <div class="wrap">
+        @@include('../layouts/top-content.html')
+        <div class="m-5">
+          <div class="wrap-recipe">
+            <div>
+              <div class="lst-img bg-white p-4 border-radius-8">
+                <div class="d-flex flex-column">
+                  <div class="img-big mb-2">
+                    <img src="/images/Recipe Book/recipes-1.jpg" alt="img big">
+                  </div>
+                  <div class="img-small">
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-2.jpg" alt="small one">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-3.jpg" alt="small three">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-4.jpg" alt="small three">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-5.jpg" alt="small five">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-6.jpg" alt="small six">
+                    </div>
+                    <button class="img-item btn-img">
+                      <img src="/images/Recipe Book/recipes-7.jpg" alt="small seven">
+                      <span class="img-modal d-flex align-items-center justify-content-center"></span>
+                    </button>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-8.jpg" alt="small eight">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-9.jpg" alt="small nine">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-10.jpg" alt="small ten">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-11.jpg" alt="small eleven">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-12.jpeg" alt="small twelve">
+                    </div>
+                    <div class="img-item">
+                      <img src="/images/Recipe Book/recipes-13.jpeg" alt="small thirteen">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="prv-recipe d-flex flex-column">
+              <div class="wrap pt-4 pl-4 pr-4 d-flex flex-column bg-white">
+                <div class="recipe-tlt pb-3">
+                  <div class="reci-title">
+                    <p class="text_dark fs-24 fw-600">Sautéed Orange & Mustard Bruschetta</p>
+                  </div>
+                  <div class="d-flex flex-row align-items-center justify-content-end">
+                    <a class="txt-cl-green d-flex " href="/">
+                      <i class="bi bi-pencil"></i>
+                      <span class="pl-1 fs-16">Edit Recipe</span>
+                    </a>
+                    <button class="reci-btn ml-4 bg-green txt-cl-white">Start Cooking</button>
+                  </div>
+                </div>
+                <div class="wrap">
+                  <p class="text_dark fs-16 p-4 fw-600">Ingredients</p>
+                  <div class="ingre">
+                    <div class="d-flex flex-column pl-4 pb-3">
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">cooking spray</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">1/2 cup whole milk</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">2 large eggs1 tablespoon maple syrup</p>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column pb-3">
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">1/2 teaspoon vanilla extract</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">1 pinch salt</p>
+                      </div>
+                      <div class="ingre-item">
+                        <img
+                          src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1284690585"
+                          alt="recipe">
+                        <p class="text_dark fs-14">4 pieces 1/2-inch thick pieces brioche</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap p-4 mt-3 mb-3 bg-white border-radius-8">
+                <div class="d-flex flex-column">
+                  <p class="txt-cl-dark fs-16 fw-600 mb-3">How to cook</p>
+                  <div class="cook mb-3">
+                    <div class="d-flex flex-column">
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>1</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Heat a Belgian waffle iron.
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>2</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Mix the flour, sugar and baking powder together in a mixing bowl. Stir in 1 cup eggnog, butter and the egg until well blended. Add more eggnog if needed to make a pourable batter.  
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>3</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Lightly grease or srpay the waffle iron with non-stick cooking
+                          spray. Pour some batter onto the preheated waffle iron, close the top,
+                          and cook until golden brown and crisp on both sides.
+                          Waffles are usually cooked with steam subsides. Transfer waffles to a serving plate and keep warm. 
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>4</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          Meanwhile place rasberry preserves in a pan and heat over medium heat until pourable. 
+                        </p>
+                      </div>
+                      <div class="cook-item mb-3">
+                        <div class="d-flex justify-content-start">
+                          <span>5</span>
+                        </div>
+                        <p class="txt-cl-dark fs-14">
+                          To serve, drizzle rasberry over each waffle and top with rasberries. If desired add a dollop
+                          of whipped cream to each waffle.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-start prev-video">
+                      <img src="/images/image-video.png" alt="buoc">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column p-4 bg-white border-radius-8">
+                <p class="txt-cl-dark fs-16 fw-600 pt-1 pb-2">Additional Information</p>
+                <div class="pt-2 prev-info">
+                  <div class="d-flex flex-column">
+                    <div class="prev-info-item mb-4 mt-2">
+                      <p class="txt-cl-blur fs-14">Serving Time (±)</p>
+                      <p class="txt-cl-dark fs-14">Mins</p>
+                    </div>
+                    <div class="prev-info-item">
+                      <p class="txt-cl-blur fs-14">Nutrition Facts</p>
+                      <div class="d-flex flex-column">
+                        <p class="txt-cl-dark fs-14">222 calories</p>
+                        <p class="txt-cl-dark fs-14">6.2g fat</p>
+                        <p class="txt-cl-dark fs-14">7.2g carbohydrates</p>
+                        <p class="txt-cl-dark fs-14">2.6g protein</p>
+                        <p class="txt-cl-dark fs-14">68mg cholesterol</p>
+                        <p class="txt-cl-dark fs-14">28mg sodium</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <p class="txt-cl-blur fs-14 mr-4">Tags</p>
+                    <p class="txt-cl-dark fs-14">Sweet, Coconut, Quick, Easy, Homemade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- include footer.html -->
+    @@include('../layouts/footer.html')
+  </div>
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
+</body>
+
+</html>

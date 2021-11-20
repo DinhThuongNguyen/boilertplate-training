@@ -1,0 +1,119 @@
+.wrap-recipe {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 2rem;
+}
+
+.recipe-tlt {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  border-bottom: 1px solid $text_grey_grey;
+}
+
+.ingre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ingre-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin: 0.5rem 0;
+  align-items: center;
+
+  & img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+.reci-btn {
+  height: 45px;
+  padding: 0 1.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.lst-img {
+  min-height: 350px;
+  // display: grid;
+  // grid-template-columns: (3, 1fr);
+  // grid-gap: 1rem;
+}
+
+.prv-recipe {
+  border-radius: 8px;
+}
+.cook {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+}
+.cook-item {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  & span {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid $text_green;
+    text-align: center;
+  }
+}
+.prev-video {
+  width: 100%;
+  height: 255px;
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.prev-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.prev-info-item {
+  display: grid;
+  grid-template-columns: 2fr 3.8fr;
+}
+.img-big {
+  width: 100%;
+  height: 150px;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.img-small {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+.img-item {
+  width: 100%;
+  height: 81px;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.btn-img {
+  border: none;
+  position: relative;
+}
+.img-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffffbf;
+}
+.an-img {
+  display: none;
+}
+.show-img {
+  display: block;
+}

@@ -78,6 +78,30 @@
 .fs-44 {
   font-size: 44px;
 }
+.fs-24 {
+  font-size: 24px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
 
 .txt-center {
   text-align: center;
@@ -86,13 +110,16 @@
 .bg-white {
   background: $background_white;
 }
+.bg-green {
+  background: $background_green;
+}
 
 .bg-body {
   background: $background_body;
 }
 
 .txt-cl-green {
-  color: $text_green;
+  color: $text_green !important;
 }
 
 .txt-cl-white {
@@ -109,6 +136,12 @@
 
 .txt-cl-grey {
   color: $text_grey;
+}
+.txt-cl-blur {
+  color: $text_blur;
+}
+.border-radius-8 {
+  border-radius: 8px;
 }
 
 .slick-initialized .slick-slide {
